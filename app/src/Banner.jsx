@@ -1,4 +1,6 @@
 import React from "react";
+import ssr from "/ssr.jpeg";
+
 
 const Banner = () => {
   return (
@@ -27,7 +29,7 @@ const Banner = () => {
           {/* Image Section */}
           <div className="image-section">
             <img
-              src="/assets/product-banner-image.jpg"
+              src={ssr}
               alt="Paper Products"
               className="banner-image"
             />
